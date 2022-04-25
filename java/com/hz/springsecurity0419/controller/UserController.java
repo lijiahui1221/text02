@@ -35,6 +35,7 @@ public class UserController {
     public MassageJson<String> list(){
         System.out.println("进来了list");
         System.out.println("111222222111");
+        System.out.println("111222222111");
         return new MassageJson<String>(200,"请求成功","模拟数据");
     }
 
