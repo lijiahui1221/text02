@@ -34,6 +34,7 @@ public class UserController {
     @GetMapping("/list")
     public MassageJson<String> list(){
         System.out.println("进来了list");
+        System.out.println("1112233");
 
         return new MassageJson<String>(200,"请求成功","模拟数据");
     }
